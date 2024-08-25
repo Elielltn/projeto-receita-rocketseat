@@ -1,16 +1,21 @@
-:root{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
   font-family: "Alice", sans-serif;
   line-height: 150%;
   color: #573a37;
 }
 
-body{
-  background-color:  rgba(87, 56, 36, 0.575);
-  background-image: url(assets/bg-image.jpg) ;
+body {
+  background-color: rgba(87, 56, 36, 0.575);
+  background-image: url(assets/bg-image.jpg);
   background-size: cover;
 }
 
-#page{
+#page {
   box-sizing: border-box;
   width: 800px;
   padding: 24px;
@@ -19,20 +24,38 @@ body{
   margin: 48px auto;
 }
 
-img{
+img {
   border-radius: 16px;
 }
 
-h1{
-  line-height: 140%;
-  font-size: 40px;
-
+main {
+  padding: 24px;
 }
 
-h2{
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
   font-size: 24px;
 }
 
-h1, h2{
-  color:  #291b1a;
+h1,
+h2 {
+  color: #291b1a;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 24px;
 }
